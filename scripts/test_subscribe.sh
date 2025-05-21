@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# scripts/test_subscribe.sh
-
 BASE_URL=${BASE_URL:-http://localhost:3000}
 
 

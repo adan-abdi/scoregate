@@ -2,8 +2,6 @@
 
 **A Rust-powered microservice that orchestrates digital lending decisions via secure KYC, score polling, and real-time loan lifecycle management.**
 
-Built from scratch in Rust within 48 hours for the Credable Technical Assessment.
-
 ---
 
 ## ✨ Features Implemented
@@ -12,8 +10,8 @@ Built from scratch in Rust within 48 hours for the Credable Technical Assessment
   - Validates input  
   - Enforces one pending loan per customer  
   - Returns `201 Created` with `{ loan_id, state }`  
-- [ ] RESTful APIs for Loan Request and Status Tracking  
-- [ ] Secure retry-based integration with scoring engine (token + polling)  
+- [x] RESTful APIs for Loan Request and Status Tracking  
+- [x] Secure retry-based integration with scoring engine (token + polling)  
 - [ ] Transaction-data middleware endpoint  
 - [ ] Mocked SOAP integration for KYC & transactions  
 - [ ] Dockerized deployment  

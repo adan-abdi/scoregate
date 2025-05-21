@@ -4,22 +4,16 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# Web framework
 warp = "0.3"
-
-# Async runtime
 tokio = { version = "1", features = ["full"] }
-
-# Logging / tracing
+tokio-retry = "0.3"
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
-
-# Data modeling
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-
-# In-memory store
 dashmap = "5.4"
-
-# UUIDs for loan IDs
 uuid = { version = "1.2", features = ["v4", "serde"] }
+reqwest = { version = "0.11", features = ["json"] }
+rand = "0.8"
+blake3 = "1.5"
+dotenv = "0.15"
